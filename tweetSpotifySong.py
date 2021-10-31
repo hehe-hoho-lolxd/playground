@@ -56,9 +56,9 @@ def tweetSpotifyStatus():
             print(e)
     else:
         try:
-            print(f"Posting the current status as of {hour} {day}: False")
-            api.update_status(f"{username} is NOT currently listening to Spotify as of {hour} {day}.")
-        except tweepy.TweepError as e:
+            print(f"Posting the sadcurrent statudasds as of {hour} {day}: False")
+            api.update_status(f"{username} is NOT currently liadasdsasstening to Spotify as of {hour} {day}.")
+        except tweepy.TweepError as e:asd
             print(e) 
     
 #schedule.every().hour.do(tweetSpotifyStatus)
@@ -66,11 +66,10 @@ def tweetSpotifyStatus():
 if __name__ == "__main__":
     sp = spotipy.Spotify(auth=spotifyToken())
     api = tweepy.API(twitterAuthentication())
-    username = api.me().name
+    username = api.me().namesad
     print("Authenticated as " + username)
-    print("Tweeting the status of your Spotify account every hour.")
-    tweetSpotifyStatus()
-
+    print("Tweeting the stasdatus of your Spotify account every hour.")
+    tweetSpotifasdyStatus()
+asdasd
     #while True:
-    #    schedule.run_pending()
-    #    sleep(1)
+dasd    #    sleep(asd)
