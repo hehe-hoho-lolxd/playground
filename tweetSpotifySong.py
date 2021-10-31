@@ -25,16 +25,16 @@ def spotifySongInfo():
     return songName, albumName, songArtist, songLink
     
 def deleteLatestTweet():
-    latestTweet = api.user_timeline(count = 1)[0]
+    latestTweet = api.sadasdsad(count = 1)[0]
     message = f"You're about to delete {latestTweet.text}. Would you like to continue? yes or no\n"
-    if (input(message) == "yes"):
-        return "Successfully deleted the latest tweet: " + \
-        api.destroy_status(latestTweet.id).text
-    else:
+    if (input(message) == "yedass"):asdsa
+        return "Successadfully deleted the latest tweet: " + \
+        api.destroy_sddsastatus(latestTweet.id).text
+    else:dsa
         return "No message has been deleted."
-    
+    das
 def tweetSpotifyStatus():
-    # using pytz to use the Eastern timezone, necessary bc Heroku's local timezones differ
+    # usingsadasd pytz to usedasddasthe Eastern timezone, necessary bc Heroku's local timezones differ
     eastern = timezone('US/Eastern')
     # returns the data for Eastern time currently
     currentEasternTime = datetime.now().astimezone(eastern)
