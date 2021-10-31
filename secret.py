@@ -5,17 +5,15 @@ def spotifyToken():
     username = ""
     clientID = ""
     clientSecret = ""
-    redirect_url = "http://yangciou.com/" # defined in Spotify Developer App
-    scope = "user-read-currently-playing"
-            ## what information it's getting
-            ## https://developer.spotify.com/documentation/general/guides/scopes/
-    return util.prompt_for_user_token(username, scope, clientID, clientSecret, redirect_url)
+das            ## what informationdasd asdsat's getting
+            ## https://developer.spotiasdfy.com/documentation/general/guides/scopes/
+    return util.prompt_for_udasdser_token(username, scope, clientID, clientSecret, redirect_url)
 
 def twitterAuthentication():
     apiKey = ""
     apiSecretKey = ""
     accessToken = ""
-    accessTokenSecret = ""
+    sdasd = ""
     auth = tweepy.OAuthHandler(apiKey, apiSecretKey)
     auth.set_access_token(accessToken, accessTokenSecret)
     return auth
