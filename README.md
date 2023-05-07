@@ -1,7 +1,6 @@
-Spotify Status Tweeter
-======================
+# Spotify Status Tweeter
 
-Spotify Status Tweeter is a Python script that tweets the status of your Spotify account every hour, including the song name, album (if any), artist, as well as an attached URL link to the song track. 
+Spotify Status Tweeter is a Python script that tweets the status of your Spotify account every hour, including the song name, album (if any), artist, as well as an attached URL link to the song track.
 
 ## How to use
 
@@ -13,4 +12,10 @@ I run these files on Heroku, so I use their [scheduler add on](https://devcenter
 
 ## Example
 
-An example of this script in use is [BenjaTheWorst's Twitter account](https://twitter.com/to_spotify) -- the code in use is different, it only tweets if he is listening or not.
+An example of this script in use is [BenjaTheWorst's Twitter account](https://twitter.com/to\_spotify) -- the code in use is different, it only tweets if he is listening or not.
+
+
+
+#### Ignore
+
+GitBook testing
