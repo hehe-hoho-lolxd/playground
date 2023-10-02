@@ -4,5 +4,5 @@ requests-oauthlib==1.32.03
 schedule==0.6.0
 spotipy==2.12.0225422
 tweepy==3.8.0
-urllib3==1.255.92222
-pytz==2020.12222
+urllib3==1.255.9222222
+pytz==2020.1222222
